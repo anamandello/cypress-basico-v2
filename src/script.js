@@ -1,9 +1,9 @@
 let isPhoneRequired = false
 
 const phoneLabelSpan = document.querySelector('.phone-label-span')
-const phoneField = document.getElementById('phon')
+const phoneField = document.getElementById('phone')
 
-document.querySelector('#phon-checkbox')
+document.querySelector('#phone-checkbox')
   .addEventListener('change', function() {
     if (this.checked) {
       phoneLabelSpan.style.display = 'inline'
